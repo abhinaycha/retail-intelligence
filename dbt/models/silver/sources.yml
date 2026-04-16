@@ -1,0 +1,34 @@
+version: 2
+
+sources:
+  - name: bronze
+    catalog: retail_intelligence
+    schema: bronze
+    tables:
+      - name: bronze_orders
+        description: "Raw orders from Auto Loader"
+        columns:
+          - name: order_id
+            tests: [not_null, unique]
+          - name: quantity
+            tests: [not_null, { dbt_utils.expression_is_true: { expression: "> 0" } }]
+          - name: net_amount
+            tests: [not_null, { dbt_utils.expression_is_true: { expression: "> 0" } }]
+
+      - name: bronze_customers
+        description: "Raw customers"
+        columns:
+          - name: customer_id
+            tests: [not_null, unique]
+
+      - name: bronze_products
+        description: "Raw products"
+        columns:
+          - name: product_id
+            tests: [not_null, unique]
+
+      - name: bronze_inventory
+        description: "Raw inventory snapshots"
+        columns:
+          - name: inventory_id
+            tests: [not_null, unique]

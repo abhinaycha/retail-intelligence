@@ -1,0 +1,20 @@
+retail_intelligence:
+  target: dev
+  outputs:
+    dev:
+      type: databricks
+      catalog: retail_intelligence
+      schema: silver
+      host: "dbc-8ef869fa-ac1a.cloud.databricks.com"
+      http_path: "/sql/1.0/warehouses/YOUR_WAREHOUSE_ID"  # Replace with your SQL Warehouse HTTP path
+      token: "{{ env_var('DATABRICKS_TOKEN') }}"
+      threads: 4
+
+    prod:
+      type: databricks
+      catalog: retail_intelligence
+      schema: silver
+      host: "dbc-8ef869fa-ac1a.cloud.databricks.com"
+      http_path: "/sql/1.0/warehouses/YOUR_WAREHOUSE_ID"
+      token: "{{ env_var('DATABRICKS_TOKEN') }}"
+      threads: 8

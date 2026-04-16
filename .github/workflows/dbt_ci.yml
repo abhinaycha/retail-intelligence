@@ -1,0 +1,53 @@
+name: dbt CI — Test on PR
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'dbt/**'
+
+jobs:
+  dbt-test:
+    name: Run dbt tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dbt-databricks
+        run: |
+          pip install dbt-databricks dbt-utils
+
+      - name: Copy profiles
+        run: |
+          mkdir -p ~/.dbt
+          cp dbt/profiles.yml ~/.dbt/profiles.yml
+
+      - name: dbt deps
+        working-directory: dbt
+        run: dbt deps
+
+      - name: dbt compile (validate SQL)
+        working-directory: dbt
+        env:
+          DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
+        run: dbt compile --profiles-dir ~/.dbt
+
+      - name: dbt test (data quality)
+        working-directory: dbt
+        env:
+          DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
+        run: dbt test --profiles-dir ~/.dbt
+
+      - name: Upload dbt artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dbt-artifacts
+          path: dbt/target/

@@ -1,0 +1,48 @@
+version: 2
+
+models:
+  - name: silver_orders
+    description: "Cleaned, validated and enriched orders — Silver layer"
+    config:
+      contract:
+        enforced: true
+    columns:
+      - name: order_id
+        data_type: string
+        tests: [not_null, unique]
+      - name: quantity
+        data_type: integer
+        tests: [not_null, { dbt_utils.expression_is_true: { expression: "> 0" } }]
+      - name: net_amount
+        data_type: double
+        tests: [not_null, { dbt_utils.expression_is_true: { expression: "> 0" } }]
+      - name: discount_pct
+        data_type: double
+        tests: [{ dbt_utils.expression_is_true: { expression: "BETWEEN 0 AND 1" } }]
+      - name: order_date
+        data_type: date
+        tests: [not_null]
+
+  - name: silver_customers
+    description: "Cleaned customers with PII masking"
+    columns:
+      - name: customer_id
+        tests: [not_null, unique]
+      - name: age
+        tests: [{ dbt_expectations.expect_column_values_to_be_between: { min_value: 18, max_value: 100 } }]
+
+  - name: silver_products
+    description: "Cleaned product catalog"
+    columns:
+      - name: product_id
+        tests: [not_null, unique]
+      - name: cost_price
+        tests: [{ dbt_utils.expression_is_true: { expression: "> 0" } }]
+
+  - name: silver_inventory
+    description: "Cleaned inventory snapshots"
+    columns:
+      - name: inventory_id
+        tests: [not_null, unique]
+      - name: quantity_on_hand
+        tests: [{ dbt_utils.expression_is_true: { expression: ">= 0" } }]

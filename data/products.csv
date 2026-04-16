@@ -1,0 +1,481 @@
+product_id,product_name,category,subcategory,cost_price,retail_price,supplier_id,is_active
+P0001,Laptop - v1,Electronics,Laptop,513.34,682.75,SupplierC,True
+P0002,Laptop - v2,Electronics,Laptop,182.45,398.43,SupplierE,True
+P0003,Laptop - v3,Electronics,Laptop,474.44,634.87,SupplierA,True
+P0004,Laptop - v4,Electronics,Laptop,189.97,384.2,SupplierE,True
+P0005,Laptop - v5,Electronics,Laptop,574.24,1229.79,SupplierD,True
+P0006,Laptop - v6,Electronics,Laptop,362.12,591.64,SupplierA,True
+P0007,Laptop - v7,Electronics,Laptop,560.02,956.68,SupplierB,True
+P0008,Laptop - v8,Electronics,Laptop,765.98,1305.16,SupplierA,False
+P0009,Laptop - v9,Electronics,Laptop,81.89,189.74,SupplierE,True
+P0010,Laptop - v10,Electronics,Laptop,646.67,1406.95,SupplierE,True
+P0011,Smartphone - v1,Electronics,Smartphone,778.63,1365.9,SupplierE,True
+P0012,Smartphone - v2,Electronics,Smartphone,664.38,1356.81,SupplierC,True
+P0013,Smartphone - v3,Electronics,Smartphone,565.13,765.75,SupplierB,True
+P0014,Smartphone - v4,Electronics,Smartphone,788.25,1833.77,SupplierA,False
+P0015,Smartphone - v5,Electronics,Smartphone,225.99,466.18,SupplierC,True
+P0016,Smartphone - v6,Electronics,Smartphone,299.29,464.32,SupplierC,True
+P0017,Smartphone - v7,Electronics,Smartphone,489.26,736.52,SupplierB,True
+P0018,Smartphone - v8,Electronics,Smartphone,372.5,604.92,SupplierE,True
+P0019,Smartphone - v9,Electronics,Smartphone,549.27,1269.59,SupplierA,True
+P0020,Smartphone - v10,Electronics,Smartphone,658.33,1491.81,SupplierD,True
+P0021,Tablet - v1,Electronics,Tablet,57.62,138.04,SupplierE,True
+P0022,Tablet - v2,Electronics,Tablet,174.04,330.52,SupplierD,True
+P0023,Tablet - v3,Electronics,Tablet,215.58,344.06,SupplierE,True
+P0024,Tablet - v4,Electronics,Tablet,598.88,1086.44,SupplierE,False
+P0025,Tablet - v5,Electronics,Tablet,292.79,731.04,SupplierB,False
+P0026,Tablet - v6,Electronics,Tablet,77.27,104.82,SupplierA,True
+P0027,Tablet - v7,Electronics,Tablet,503.82,1133.84,SupplierD,True
+P0028,Tablet - v8,Electronics,Tablet,310.89,626.46,SupplierD,True
+P0029,Tablet - v9,Electronics,Tablet,777.01,1812.71,SupplierA,True
+P0030,Tablet - v10,Electronics,Tablet,546.96,1063.49,SupplierC,True
+P0031,Headphones - v1,Electronics,Headphones,93.68,170.66,SupplierD,True
+P0032,Headphones - v2,Electronics,Headphones,763.28,1794.49,SupplierC,True
+P0033,Headphones - v3,Electronics,Headphones,408.61,583.37,SupplierC,True
+P0034,Headphones - v4,Electronics,Headphones,126.51,280.22,SupplierE,True
+P0035,Headphones - v5,Electronics,Headphones,481.16,907.63,SupplierA,True
+P0036,Headphones - v6,Electronics,Headphones,703.58,1616.83,SupplierC,True
+P0037,Headphones - v7,Electronics,Headphones,51.05,120.15,SupplierA,True
+P0038,Headphones - v8,Electronics,Headphones,586.87,1337.61,SupplierE,True
+P0039,Headphones - v9,Electronics,Headphones,107.07,200.26,SupplierE,True
+P0040,Headphones - v10,Electronics,Headphones,215.72,506.28,SupplierD,True
+P0041,Smartwatch - v1,Electronics,Smartwatch,743.49,1640.38,SupplierB,True
+P0042,Smartwatch - v2,Electronics,Smartwatch,322.2,678.56,SupplierC,False
+P0043,Smartwatch - v3,Electronics,Smartwatch,720.19,1326.43,SupplierB,True
+P0044,Smartwatch - v4,Electronics,Smartwatch,55.9,74.08,SupplierE,True
+P0045,Smartwatch - v5,Electronics,Smartwatch,472.81,618.73,SupplierA,True
+P0046,Smartwatch - v6,Electronics,Smartwatch,58.58,78.36,SupplierC,True
+P0047,Smartwatch - v7,Electronics,Smartwatch,413.75,676.14,SupplierD,True
+P0048,Smartwatch - v8,Electronics,Smartwatch,433.69,940.25,SupplierE,False
+P0049,Smartwatch - v9,Electronics,Smartwatch,198.18,370.11,SupplierD,True
+P0050,Smartwatch - v10,Electronics,Smartwatch,79.99,167.24,SupplierC,False
+P0051,Camera - v1,Electronics,Camera,331.83,775.36,SupplierA,True
+P0052,Camera - v2,Electronics,Camera,53.19,115.63,SupplierA,True
+P0053,Camera - v3,Electronics,Camera,157.31,305.74,SupplierB,False
+P0054,Camera - v4,Electronics,Camera,150.87,279.89,SupplierA,False
+P0055,Camera - v5,Electronics,Camera,647.38,1506.56,SupplierA,True
+P0056,Camera - v6,Electronics,Camera,523.46,1020.07,SupplierA,True
+P0057,Camera - v7,Electronics,Camera,741.46,1719.03,SupplierB,False
+P0058,Camera - v8,Electronics,Camera,391.08,608.71,SupplierD,True
+P0059,Camera - v9,Electronics,Camera,135.89,177.01,SupplierD,True
+P0060,Camera - v10,Electronics,Camera,741.58,1662.74,SupplierC,False
+P0061,Speaker - v1,Electronics,Speaker,558.79,1216.27,SupplierE,False
+P0062,Speaker - v2,Electronics,Speaker,128.06,212.07,SupplierA,True
+P0063,Speaker - v3,Electronics,Speaker,599.64,820.67,SupplierE,False
+P0064,Speaker - v4,Electronics,Speaker,404.77,940.39,SupplierB,True
+P0065,Speaker - v5,Electronics,Speaker,768.82,1073.38,SupplierB,True
+P0066,Speaker - v6,Electronics,Speaker,478.05,1008.81,SupplierB,False
+P0067,Speaker - v7,Electronics,Speaker,100.31,237.57,SupplierB,True
+P0068,Speaker - v8,Electronics,Speaker,497.41,896.86,SupplierE,True
+P0069,Speaker - v9,Electronics,Speaker,748.09,1155.88,SupplierC,True
+P0070,Speaker - v10,Electronics,Speaker,216.16,314.96,SupplierC,False
+P0071,Monitor - v1,Electronics,Monitor,256.36,564.57,SupplierA,True
+P0072,Monitor - v2,Electronics,Monitor,369.34,922.66,SupplierA,True
+P0073,Monitor - v3,Electronics,Monitor,432.42,824.65,SupplierB,True
+P0074,Monitor - v4,Electronics,Monitor,705.29,1661.05,SupplierC,True
+P0075,Monitor - v5,Electronics,Monitor,130.41,300.01,SupplierC,True
+P0076,Monitor - v6,Electronics,Monitor,535.95,1053.42,SupplierA,True
+P0077,Monitor - v7,Electronics,Monitor,215.25,509.64,SupplierE,True
+P0078,Monitor - v8,Electronics,Monitor,221.52,448.75,SupplierC,True
+P0079,Monitor - v9,Electronics,Monitor,551.56,1281.55,SupplierE,False
+P0080,Monitor - v10,Electronics,Monitor,204.64,489.05,SupplierA,True
+P0081,T-Shirt - v1,Clothing,T-Shirt,509.26,1168.86,SupplierA,True
+P0082,T-Shirt - v2,Clothing,T-Shirt,270.18,393.65,SupplierC,True
+P0083,T-Shirt - v3,Clothing,T-Shirt,594.28,1165.99,SupplierD,True
+P0084,T-Shirt - v4,Clothing,T-Shirt,93.94,228.66,SupplierB,True
+P0085,T-Shirt - v5,Clothing,T-Shirt,668.5,1336.34,SupplierB,False
+P0086,T-Shirt - v6,Clothing,T-Shirt,106.32,177.54,SupplierA,True
+P0087,T-Shirt - v7,Clothing,T-Shirt,172.01,275.12,SupplierA,True
+P0088,T-Shirt - v8,Clothing,T-Shirt,625.19,1476.05,SupplierD,True
+P0089,T-Shirt - v9,Clothing,T-Shirt,740.98,1173.78,SupplierB,True
+P0090,T-Shirt - v10,Clothing,T-Shirt,705.73,938.44,SupplierC,False
+P0091,Jeans - v1,Clothing,Jeans,642.78,1502.1,SupplierB,True
+P0092,Jeans - v2,Clothing,Jeans,131.56,281.74,SupplierD,True
+P0093,Jeans - v3,Clothing,Jeans,687.58,1077.38,SupplierD,True
+P0094,Jeans - v4,Clothing,Jeans,247.63,558.26,SupplierB,True
+P0095,Jeans - v5,Clothing,Jeans,23.81,36.47,SupplierC,True
+P0096,Jeans - v6,Clothing,Jeans,692.16,1702.9,SupplierC,True
+P0097,Jeans - v7,Clothing,Jeans,514.98,916.47,SupplierE,True
+P0098,Jeans - v8,Clothing,Jeans,751.69,1081.24,SupplierC,True
+P0099,Jeans - v9,Clothing,Jeans,466.57,1157.22,SupplierA,True
+P0100,Jeans - v10,Clothing,Jeans,479.27,821.86,SupplierC,False
+P0101,Jacket - v1,Clothing,Jacket,486.94,931.86,SupplierD,True
+P0102,Jacket - v2,Clothing,Jacket,207.5,446.24,SupplierA,True
+P0103,Jacket - v3,Clothing,Jacket,294.56,407.66,SupplierC,True
+P0104,Jacket - v4,Clothing,Jacket,532.39,771.73,SupplierC,True
+P0105,Jacket - v5,Clothing,Jacket,535.18,905.21,SupplierC,True
+P0106,Jacket - v6,Clothing,Jacket,157.51,330.44,SupplierD,True
+P0107,Jacket - v7,Clothing,Jacket,494.33,821.15,SupplierE,True
+P0108,Jacket - v8,Clothing,Jacket,246.58,382.75,SupplierE,True
+P0109,Jacket - v9,Clothing,Jacket,374.67,685.87,SupplierB,False
+P0110,Jacket - v10,Clothing,Jacket,636.02,1559.39,SupplierB,True
+P0111,Shoes - v1,Clothing,Shoes,230.61,483.5,SupplierE,True
+P0112,Shoes - v2,Clothing,Shoes,79.24,193.54,SupplierB,True
+P0113,Shoes - v3,Clothing,Shoes,183.59,282.54,SupplierA,True
+P0114,Shoes - v4,Clothing,Shoes,199.65,373.38,SupplierA,False
+P0115,Shoes - v5,Clothing,Shoes,334.48,687.6,SupplierB,False
+P0116,Shoes - v6,Clothing,Shoes,398.03,633.97,SupplierA,True
+P0117,Shoes - v7,Clothing,Shoes,623.84,974.82,SupplierE,False
+P0118,Shoes - v8,Clothing,Shoes,44.92,71.83,SupplierA,False
+P0119,Shoes - v9,Clothing,Shoes,111.0,206.19,SupplierE,True
+P0120,Shoes - v10,Clothing,Shoes,760.28,1801.64,SupplierE,False
+P0121,Dress - v1,Clothing,Dress,665.3,1302.29,SupplierB,False
+P0122,Dress - v2,Clothing,Dress,362.81,798.96,SupplierC,False
+P0123,Dress - v3,Clothing,Dress,503.27,820.09,SupplierA,True
+P0124,Dress - v4,Clothing,Dress,191.42,325.99,SupplierE,True
+P0125,Dress - v5,Clothing,Dress,115.01,181.43,SupplierB,True
+P0126,Dress - v6,Clothing,Dress,56.06,100.3,SupplierE,False
+P0127,Dress - v7,Clothing,Dress,335.54,519.48,SupplierD,False
+P0128,Dress - v8,Clothing,Dress,724.35,1449.35,SupplierA,False
+P0129,Dress - v9,Clothing,Dress,384.2,934.1,SupplierC,False
+P0130,Dress - v10,Clothing,Dress,683.49,1670.53,SupplierD,True
+P0131,Sweater - v1,Clothing,Sweater,393.14,639.84,SupplierD,True
+P0132,Sweater - v2,Clothing,Sweater,314.14,660.53,SupplierD,True
+P0133,Sweater - v3,Clothing,Sweater,673.2,1618.0,SupplierE,True
+P0134,Sweater - v4,Clothing,Sweater,726.01,1459.48,SupplierA,True
+P0135,Sweater - v5,Clothing,Sweater,515.99,754.81,SupplierD,True
+P0136,Sweater - v6,Clothing,Sweater,44.98,78.94,SupplierB,False
+P0137,Sweater - v7,Clothing,Sweater,264.84,586.22,SupplierD,True
+P0138,Sweater - v8,Clothing,Sweater,602.85,1385.54,SupplierC,True
+P0139,Sweater - v9,Clothing,Sweater,378.89,833.11,SupplierA,True
+P0140,Sweater - v10,Clothing,Sweater,183.26,253.33,SupplierA,True
+P0141,Shorts - v1,Clothing,Shorts,759.94,1169.72,SupplierA,True
+P0142,Shorts - v2,Clothing,Shorts,194.64,363.64,SupplierA,True
+P0143,Shorts - v3,Clothing,Shorts,374.7,602.33,SupplierC,True
+P0144,Shorts - v4,Clothing,Shorts,486.68,1195.52,SupplierA,True
+P0145,Shorts - v5,Clothing,Shorts,771.95,1103.67,SupplierA,True
+P0146,Shorts - v6,Clothing,Shorts,462.76,1105.83,SupplierD,False
+P0147,Shorts - v7,Clothing,Shorts,753.47,1158.83,SupplierE,True
+P0148,Shorts - v8,Clothing,Shorts,86.01,191.54,SupplierE,True
+P0149,Shorts - v9,Clothing,Shorts,638.0,1262.68,SupplierA,True
+P0150,Shorts - v10,Clothing,Shorts,428.53,897.27,SupplierA,True
+P0151,Boots - v1,Clothing,Boots,15.06,27.17,SupplierD,True
+P0152,Boots - v2,Clothing,Boots,349.65,606.51,SupplierD,True
+P0153,Boots - v3,Clothing,Boots,351.21,765.83,SupplierC,False
+P0154,Boots - v4,Clothing,Boots,374.57,858.1,SupplierE,True
+P0155,Boots - v5,Clothing,Boots,261.23,416.56,SupplierA,True
+P0156,Boots - v6,Clothing,Boots,705.9,1124.24,SupplierD,False
+P0157,Boots - v7,Clothing,Boots,272.44,515.77,SupplierC,True
+P0158,Boots - v8,Clothing,Boots,392.6,677.55,SupplierC,True
+P0159,Boots - v9,Clothing,Boots,227.33,458.16,SupplierC,True
+P0160,Boots - v10,Clothing,Boots,415.72,635.75,SupplierB,False
+P0161,Blender - v1,Home & Kitchen,Blender,393.42,869.38,SupplierD,False
+P0162,Blender - v2,Home & Kitchen,Blender,361.3,477.17,SupplierC,True
+P0163,Blender - v3,Home & Kitchen,Blender,326.5,519.78,SupplierE,True
+P0164,Blender - v4,Home & Kitchen,Blender,381.24,738.5,SupplierD,True
+P0165,Blender - v5,Home & Kitchen,Blender,284.69,525.11,SupplierC,True
+P0166,Blender - v6,Home & Kitchen,Blender,188.28,407.73,SupplierC,True
+P0167,Blender - v7,Home & Kitchen,Blender,595.59,1453.87,SupplierB,True
+P0168,Blender - v8,Home & Kitchen,Blender,177.03,333.0,SupplierE,True
+P0169,Blender - v9,Home & Kitchen,Blender,784.51,1803.71,SupplierC,True
+P0170,Blender - v10,Home & Kitchen,Blender,291.9,485.35,SupplierE,True
+P0171,Coffee Maker - v1,Home & Kitchen,Coffee Maker,223.08,550.82,SupplierE,True
+P0172,Coffee Maker - v2,Home & Kitchen,Coffee Maker,559.45,812.06,SupplierD,True
+P0173,Coffee Maker - v3,Home & Kitchen,Coffee Maker,698.81,1389.85,SupplierD,False
+P0174,Coffee Maker - v4,Home & Kitchen,Coffee Maker,355.17,540.3,SupplierA,True
+P0175,Coffee Maker - v5,Home & Kitchen,Coffee Maker,753.15,1410.86,SupplierA,False
+P0176,Coffee Maker - v6,Home & Kitchen,Coffee Maker,395.94,788.88,SupplierA,True
+P0177,Coffee Maker - v7,Home & Kitchen,Coffee Maker,123.61,244.18,SupplierC,True
+P0178,Coffee Maker - v8,Home & Kitchen,Coffee Maker,795.16,1146.73,SupplierD,True
+P0179,Coffee Maker - v9,Home & Kitchen,Coffee Maker,621.68,1091.95,SupplierD,True
+P0180,Coffee Maker - v10,Home & Kitchen,Coffee Maker,688.83,1713.83,SupplierC,True
+P0181,Toaster - v1,Home & Kitchen,Toaster,489.66,1071.43,SupplierB,True
+P0182,Toaster - v2,Home & Kitchen,Toaster,215.39,300.99,SupplierB,True
+P0183,Toaster - v3,Home & Kitchen,Toaster,443.83,660.35,SupplierD,False
+P0184,Toaster - v4,Home & Kitchen,Toaster,553.05,1030.83,SupplierA,True
+P0185,Toaster - v5,Home & Kitchen,Toaster,234.04,383.65,SupplierD,True
+P0186,Toaster - v6,Home & Kitchen,Toaster,551.47,1328.32,SupplierE,True
+P0187,Toaster - v7,Home & Kitchen,Toaster,342.99,670.02,SupplierB,True
+P0188,Toaster - v8,Home & Kitchen,Toaster,662.17,917.56,SupplierB,True
+P0189,Toaster - v9,Home & Kitchen,Toaster,478.06,1094.32,SupplierC,False
+P0190,Toaster - v10,Home & Kitchen,Toaster,103.86,220.85,SupplierD,True
+P0191,Vacuum - v1,Home & Kitchen,Vacuum,402.88,762.47,SupplierA,True
+P0192,Vacuum - v2,Home & Kitchen,Vacuum,712.09,1553.38,SupplierE,True
+P0193,Vacuum - v3,Home & Kitchen,Vacuum,25.56,40.25,SupplierE,True
+P0194,Vacuum - v4,Home & Kitchen,Vacuum,799.66,1684.67,SupplierC,True
+P0195,Vacuum - v5,Home & Kitchen,Vacuum,611.67,923.76,SupplierE,False
+P0196,Vacuum - v6,Home & Kitchen,Vacuum,733.28,1112.96,SupplierE,False
+P0197,Vacuum - v7,Home & Kitchen,Vacuum,509.65,963.27,SupplierA,False
+P0198,Vacuum - v8,Home & Kitchen,Vacuum,281.63,478.76,SupplierA,True
+P0199,Vacuum - v9,Home & Kitchen,Vacuum,267.19,569.76,SupplierC,False
+P0200,Vacuum - v10,Home & Kitchen,Vacuum,651.78,1277.56,SupplierD,True
+P0201,Microwave - v1,Home & Kitchen,Microwave,255.04,430.49,SupplierD,True
+P0202,Microwave - v2,Home & Kitchen,Microwave,527.84,1029.88,SupplierD,True
+P0203,Microwave - v3,Home & Kitchen,Microwave,154.13,267.28,SupplierD,False
+P0204,Microwave - v4,Home & Kitchen,Microwave,609.19,940.75,SupplierE,True
+P0205,Microwave - v5,Home & Kitchen,Microwave,742.5,1355.61,SupplierD,True
+P0206,Microwave - v6,Home & Kitchen,Microwave,27.95,57.47,SupplierB,True
+P0207,Microwave - v7,Home & Kitchen,Microwave,252.05,331.8,SupplierD,True
+P0208,Microwave - v8,Home & Kitchen,Microwave,183.64,424.15,SupplierA,False
+P0209,Microwave - v9,Home & Kitchen,Microwave,757.91,1574.37,SupplierB,False
+P0210,Microwave - v10,Home & Kitchen,Microwave,746.46,1231.83,SupplierC,False
+P0211,Kettle - v1,Home & Kitchen,Kettle,668.61,1655.67,SupplierB,False
+P0212,Kettle - v2,Home & Kitchen,Kettle,443.26,780.27,SupplierE,True
+P0213,Kettle - v3,Home & Kitchen,Kettle,691.9,1128.83,SupplierD,True
+P0214,Kettle - v4,Home & Kitchen,Kettle,747.73,1427.63,SupplierA,True
+P0215,Kettle - v5,Home & Kitchen,Kettle,582.21,1341.98,SupplierE,False
+P0216,Kettle - v6,Home & Kitchen,Kettle,692.88,1272.03,SupplierD,True
+P0217,Kettle - v7,Home & Kitchen,Kettle,269.29,596.6,SupplierD,False
+P0218,Kettle - v8,Home & Kitchen,Kettle,746.62,1749.72,SupplierB,False
+P0219,Kettle - v9,Home & Kitchen,Kettle,190.68,425.34,SupplierA,True
+P0220,Kettle - v10,Home & Kitchen,Kettle,597.04,1281.41,SupplierD,False
+P0221,Air Fryer - v1,Home & Kitchen,Air Fryer,790.79,1779.97,SupplierB,False
+P0222,Air Fryer - v2,Home & Kitchen,Air Fryer,772.04,1120.61,SupplierE,True
+P0223,Air Fryer - v3,Home & Kitchen,Air Fryer,696.41,1635.89,SupplierD,True
+P0224,Air Fryer - v4,Home & Kitchen,Air Fryer,423.13,782.08,SupplierB,False
+P0225,Air Fryer - v5,Home & Kitchen,Air Fryer,697.39,1718.33,SupplierA,False
+P0226,Air Fryer - v6,Home & Kitchen,Air Fryer,626.31,1013.39,SupplierE,False
+P0227,Air Fryer - v7,Home & Kitchen,Air Fryer,521.62,1211.26,SupplierE,False
+P0228,Air Fryer - v8,Home & Kitchen,Air Fryer,763.54,1566.91,SupplierD,True
+P0229,Air Fryer - v9,Home & Kitchen,Air Fryer,495.88,784.35,SupplierC,True
+P0230,Air Fryer - v10,Home & Kitchen,Air Fryer,598.68,1090.06,SupplierA,True
+P0231,Cookware Set - v1,Home & Kitchen,Cookware Set,357.72,762.95,SupplierA,True
+P0232,Cookware Set - v2,Home & Kitchen,Cookware Set,262.88,359.45,SupplierC,True
+P0233,Cookware Set - v3,Home & Kitchen,Cookware Set,347.4,553.42,SupplierD,True
+P0234,Cookware Set - v4,Home & Kitchen,Cookware Set,140.14,195.46,SupplierD,True
+P0235,Cookware Set - v5,Home & Kitchen,Cookware Set,400.65,801.22,SupplierB,False
+P0236,Cookware Set - v6,Home & Kitchen,Cookware Set,512.13,948.2,SupplierA,False
+P0237,Cookware Set - v7,Home & Kitchen,Cookware Set,721.46,1524.54,SupplierB,True
+P0238,Cookware Set - v8,Home & Kitchen,Cookware Set,356.18,610.73,SupplierE,True
+P0239,Cookware Set - v9,Home & Kitchen,Cookware Set,512.96,928.03,SupplierC,False
+P0240,Cookware Set - v10,Home & Kitchen,Cookware Set,677.02,1041.97,SupplierD,False
+P0241,Fiction Novel - v1,Books,Fiction Novel,89.79,157.82,SupplierC,True
+P0242,Fiction Novel - v2,Books,Fiction Novel,794.19,1313.81,SupplierD,True
+P0243,Fiction Novel - v3,Books,Fiction Novel,11.44,26.75,SupplierA,False
+P0244,Fiction Novel - v4,Books,Fiction Novel,667.11,1590.07,SupplierB,True
+P0245,Fiction Novel - v5,Books,Fiction Novel,179.11,273.71,SupplierC,True
+P0246,Fiction Novel - v6,Books,Fiction Novel,504.46,1202.68,SupplierA,True
+P0247,Fiction Novel - v7,Books,Fiction Novel,631.95,846.84,SupplierC,True
+P0248,Fiction Novel - v8,Books,Fiction Novel,76.66,126.81,SupplierD,True
+P0249,Fiction Novel - v9,Books,Fiction Novel,164.63,369.4,SupplierC,True
+P0250,Fiction Novel - v10,Books,Fiction Novel,665.23,1069.93,SupplierD,True
+P0251,Self-Help Book - v1,Books,Self-Help Book,598.51,1021.33,SupplierA,False
+P0252,Self-Help Book - v2,Books,Self-Help Book,770.5,1131.79,SupplierB,False
+P0253,Self-Help Book - v3,Books,Self-Help Book,773.98,1753.46,SupplierC,True
+P0254,Self-Help Book - v4,Books,Self-Help Book,633.59,834.25,SupplierE,True
+P0255,Self-Help Book - v5,Books,Self-Help Book,366.55,772.47,SupplierC,False
+P0256,Self-Help Book - v6,Books,Self-Help Book,658.82,1599.85,SupplierA,True
+P0257,Self-Help Book - v7,Books,Self-Help Book,379.82,776.15,SupplierE,True
+P0258,Self-Help Book - v8,Books,Self-Help Book,732.63,1147.04,SupplierA,False
+P0259,Self-Help Book - v9,Books,Self-Help Book,727.96,1210.33,SupplierD,True
+P0260,Self-Help Book - v10,Books,Self-Help Book,116.12,282.81,SupplierC,False
+P0261,Textbook - v1,Books,Textbook,97.32,153.94,SupplierE,True
+P0262,Textbook - v2,Books,Textbook,313.97,547.94,SupplierE,False
+P0263,Textbook - v3,Books,Textbook,471.94,1025.02,SupplierD,True
+P0264,Textbook - v4,Books,Textbook,667.79,1361.48,SupplierC,True
+P0265,Textbook - v5,Books,Textbook,553.77,864.28,SupplierD,True
+P0266,Textbook - v6,Books,Textbook,685.08,972.28,SupplierC,True
+P0267,Textbook - v7,Books,Textbook,53.14,86.67,SupplierA,False
+P0268,Textbook - v8,Books,Textbook,77.88,121.07,SupplierE,True
+P0269,Textbook - v9,Books,Textbook,45.21,76.87,SupplierB,True
+P0270,Textbook - v10,Books,Textbook,59.55,132.09,SupplierB,True
+P0271,Comic Book - v1,Books,Comic Book,651.38,1028.92,SupplierB,True
+P0272,Comic Book - v2,Books,Comic Book,225.43,559.25,SupplierB,True
+P0273,Comic Book - v3,Books,Comic Book,639.82,916.17,SupplierA,True
+P0274,Comic Book - v4,Books,Comic Book,16.81,37.79,SupplierB,True
+P0275,Comic Book - v5,Books,Comic Book,17.55,28.4,SupplierB,False
+P0276,Comic Book - v6,Books,Comic Book,423.24,928.93,SupplierD,False
+P0277,Comic Book - v7,Books,Comic Book,623.52,1194.59,SupplierA,False
+P0278,Comic Book - v8,Books,Comic Book,405.55,987.31,SupplierA,True
+P0279,Comic Book - v9,Books,Comic Book,369.14,906.91,SupplierA,False
+P0280,Comic Book - v10,Books,Comic Book,678.6,1229.3,SupplierA,False
+P0281,Biography - v1,Books,Biography,571.36,1046.89,SupplierA,True
+P0282,Biography - v2,Books,Biography,488.6,673.69,SupplierC,True
+P0283,Biography - v3,Books,Biography,307.82,620.83,SupplierC,False
+P0284,Biography - v4,Books,Biography,406.91,739.05,SupplierA,True
+P0285,Biography - v5,Books,Biography,346.91,820.69,SupplierD,True
+P0286,Biography - v6,Books,Biography,662.8,1178.77,SupplierA,True
+P0287,Biography - v7,Books,Biography,344.28,722.34,SupplierC,True
+P0288,Biography - v8,Books,Biography,551.02,1029.92,SupplierA,True
+P0289,Biography - v9,Books,Biography,79.12,112.02,SupplierC,True
+P0290,Biography - v10,Books,Biography,447.31,896.3,SupplierE,True
+P0291,Cook Book - v1,Books,Cook Book,537.66,964.01,SupplierD,True
+P0292,Cook Book - v2,Books,Cook Book,774.88,1565.64,SupplierC,True
+P0293,Cook Book - v3,Books,Cook Book,464.45,722.35,SupplierD,True
+P0294,Cook Book - v4,Books,Cook Book,678.58,1167.25,SupplierE,True
+P0295,Cook Book - v5,Books,Cook Book,96.33,157.43,SupplierB,False
+P0296,Cook Book - v6,Books,Cook Book,676.9,1671.57,SupplierE,True
+P0297,Cook Book - v7,Books,Cook Book,489.15,1022.03,SupplierC,True
+P0298,Cook Book - v8,Books,Cook Book,148.43,318.12,SupplierC,True
+P0299,Cook Book - v9,Books,Cook Book,284.06,431.11,SupplierB,False
+P0300,Cook Book - v10,Books,Cook Book,60.32,132.05,SupplierA,True
+P0301,Children Book - v1,Books,Children Book,598.16,932.03,SupplierD,False
+P0302,Children Book - v2,Books,Children Book,276.01,481.38,SupplierC,True
+P0303,Children Book - v3,Books,Children Book,707.26,1051.48,SupplierE,True
+P0304,Children Book - v4,Books,Children Book,540.81,879.64,SupplierD,False
+P0305,Children Book - v5,Books,Children Book,487.63,876.28,SupplierB,True
+P0306,Children Book - v6,Books,Children Book,279.41,400.41,SupplierE,False
+P0307,Children Book - v7,Books,Children Book,423.91,707.97,SupplierB,False
+P0308,Children Book - v8,Books,Children Book,787.63,1075.7,SupplierB,True
+P0309,Children Book - v9,Books,Children Book,756.53,1680.12,SupplierC,True
+P0310,Children Book - v10,Books,Children Book,265.86,348.08,SupplierD,True
+P0311,Travel Guide - v1,Books,Travel Guide,107.7,208.84,SupplierB,True
+P0312,Travel Guide - v2,Books,Travel Guide,62.3,145.42,SupplierA,False
+P0313,Travel Guide - v3,Books,Travel Guide,19.9,47.87,SupplierC,False
+P0314,Travel Guide - v4,Books,Travel Guide,460.85,991.47,SupplierD,True
+P0315,Travel Guide - v5,Books,Travel Guide,96.56,127.94,SupplierC,True
+P0316,Travel Guide - v6,Books,Travel Guide,642.05,1310.91,SupplierC,True
+P0317,Travel Guide - v7,Books,Travel Guide,352.19,502.59,SupplierD,False
+P0318,Travel Guide - v8,Books,Travel Guide,421.55,748.22,SupplierC,True
+P0319,Travel Guide - v9,Books,Travel Guide,181.15,404.86,SupplierA,True
+P0320,Travel Guide - v10,Books,Travel Guide,426.83,654.2,SupplierC,True
+P0321,Yoga Mat - v1,Sports,Yoga Mat,583.27,1331.45,SupplierB,True
+P0322,Yoga Mat - v2,Sports,Yoga Mat,86.73,139.39,SupplierB,True
+P0323,Yoga Mat - v3,Sports,Yoga Mat,609.37,1271.52,SupplierB,False
+P0324,Yoga Mat - v4,Sports,Yoga Mat,373.84,738.89,SupplierE,False
+P0325,Yoga Mat - v5,Sports,Yoga Mat,546.5,1288.9,SupplierE,True
+P0326,Yoga Mat - v6,Sports,Yoga Mat,692.08,1420.61,SupplierB,False
+P0327,Yoga Mat - v7,Sports,Yoga Mat,59.29,108.54,SupplierC,True
+P0328,Yoga Mat - v8,Sports,Yoga Mat,475.18,818.42,SupplierA,True
+P0329,Yoga Mat - v9,Sports,Yoga Mat,372.09,500.51,SupplierC,True
+P0330,Yoga Mat - v10,Sports,Yoga Mat,66.0,154.25,SupplierA,False
+P0331,Dumbbells - v1,Sports,Dumbbells,372.86,732.74,SupplierA,False
+P0332,Dumbbells - v2,Sports,Dumbbells,727.69,1445.18,SupplierB,True
+P0333,Dumbbells - v3,Sports,Dumbbells,485.98,924.16,SupplierA,False
+P0334,Dumbbells - v4,Sports,Dumbbells,87.28,207.63,SupplierC,True
+P0335,Dumbbells - v5,Sports,Dumbbells,406.12,612.05,SupplierB,False
+P0336,Dumbbells - v6,Sports,Dumbbells,792.83,1529.28,SupplierE,True
+P0337,Dumbbells - v7,Sports,Dumbbells,294.3,706.77,SupplierD,False
+P0338,Dumbbells - v8,Sports,Dumbbells,620.7,1312.58,SupplierA,True
+P0339,Dumbbells - v9,Sports,Dumbbells,57.4,81.13,SupplierD,True
+P0340,Dumbbells - v10,Sports,Dumbbells,205.34,476.77,SupplierE,True
+P0341,Running Shoes - v1,Sports,Running Shoes,270.02,539.85,SupplierB,True
+P0342,Running Shoes - v2,Sports,Running Shoes,251.63,525.22,SupplierD,True
+P0343,Running Shoes - v3,Sports,Running Shoes,478.06,1159.58,SupplierC,False
+P0344,Running Shoes - v4,Sports,Running Shoes,516.58,875.18,SupplierB,True
+P0345,Running Shoes - v5,Sports,Running Shoes,518.59,937.66,SupplierC,True
+P0346,Running Shoes - v6,Sports,Running Shoes,293.27,444.69,SupplierB,True
+P0347,Running Shoes - v7,Sports,Running Shoes,758.4,1428.47,SupplierB,True
+P0348,Running Shoes - v8,Sports,Running Shoes,128.18,212.13,SupplierA,True
+P0349,Running Shoes - v9,Sports,Running Shoes,531.23,1249.28,SupplierE,True
+P0350,Running Shoes - v10,Sports,Running Shoes,479.81,712.57,SupplierB,True
+P0351,Bicycle - v1,Sports,Bicycle,578.34,782.16,SupplierC,True
+P0352,Bicycle - v2,Sports,Bicycle,775.82,1577.02,SupplierD,True
+P0353,Bicycle - v3,Sports,Bicycle,429.54,717.92,SupplierD,True
+P0354,Bicycle - v4,Sports,Bicycle,297.43,724.7,SupplierD,False
+P0355,Bicycle - v5,Sports,Bicycle,616.7,1377.55,SupplierE,False
+P0356,Bicycle - v6,Sports,Bicycle,773.18,1763.06,SupplierE,True
+P0357,Bicycle - v7,Sports,Bicycle,699.04,952.52,SupplierD,True
+P0358,Bicycle - v8,Sports,Bicycle,445.86,634.51,SupplierE,True
+P0359,Bicycle - v9,Sports,Bicycle,231.63,513.23,SupplierC,False
+P0360,Bicycle - v10,Sports,Bicycle,724.72,1070.28,SupplierD,True
+P0361,Tennis Racket - v1,Sports,Tennis Racket,757.4,1186.43,SupplierD,True
+P0362,Tennis Racket - v2,Sports,Tennis Racket,744.73,1338.93,SupplierD,True
+P0363,Tennis Racket - v3,Sports,Tennis Racket,192.44,479.84,SupplierC,True
+P0364,Tennis Racket - v4,Sports,Tennis Racket,27.41,66.25,SupplierC,True
+P0365,Tennis Racket - v5,Sports,Tennis Racket,114.39,188.09,SupplierD,True
+P0366,Tennis Racket - v6,Sports,Tennis Racket,608.28,1133.18,SupplierE,True
+P0367,Tennis Racket - v7,Sports,Tennis Racket,725.16,959.25,SupplierB,True
+P0368,Tennis Racket - v8,Sports,Tennis Racket,441.3,958.8,SupplierE,False
+P0369,Tennis Racket - v9,Sports,Tennis Racket,93.39,153.69,SupplierC,True
+P0370,Tennis Racket - v10,Sports,Tennis Racket,42.96,77.49,SupplierE,False
+P0371,Football - v1,Sports,Football,54.93,126.56,SupplierD,True
+P0372,Football - v2,Sports,Football,507.4,1009.75,SupplierB,True
+P0373,Football - v3,Sports,Football,346.24,705.56,SupplierB,False
+P0374,Football - v4,Sports,Football,153.91,323.5,SupplierE,True
+P0375,Football - v5,Sports,Football,58.81,113.58,SupplierE,True
+P0376,Football - v6,Sports,Football,315.41,587.98,SupplierD,True
+P0377,Football - v7,Sports,Football,206.65,272.67,SupplierA,True
+P0378,Football - v8,Sports,Football,196.7,410.81,SupplierA,True
+P0379,Football - v9,Sports,Football,111.06,191.33,SupplierC,True
+P0380,Football - v10,Sports,Football,665.16,1411.22,SupplierD,True
+P0381,Basketball - v1,Sports,Basketball,650.14,894.41,SupplierD,True
+P0382,Basketball - v2,Sports,Basketball,238.29,322.3,SupplierB,True
+P0383,Basketball - v3,Sports,Basketball,255.9,427.89,SupplierD,False
+P0384,Basketball - v4,Sports,Basketball,206.38,454.85,SupplierB,True
+P0385,Basketball - v5,Sports,Basketball,288.79,646.03,SupplierC,True
+P0386,Basketball - v6,Sports,Basketball,103.96,181.06,SupplierD,False
+P0387,Basketball - v7,Sports,Basketball,716.24,1263.43,SupplierB,False
+P0388,Basketball - v8,Sports,Basketball,555.19,966.48,SupplierE,True
+P0389,Basketball - v9,Sports,Basketball,641.91,1394.55,SupplierA,False
+P0390,Basketball - v10,Sports,Basketball,483.95,1106.7,SupplierE,True
+P0391,Swim Goggles - v1,Sports,Swim Goggles,260.36,363.48,SupplierC,True
+P0392,Swim Goggles - v2,Sports,Swim Goggles,359.5,776.95,SupplierB,False
+P0393,Swim Goggles - v3,Sports,Swim Goggles,284.48,384.28,SupplierC,False
+P0394,Swim Goggles - v4,Sports,Swim Goggles,223.27,552.82,SupplierA,True
+P0395,Swim Goggles - v5,Sports,Swim Goggles,538.59,962.7,SupplierE,True
+P0396,Swim Goggles - v6,Sports,Swim Goggles,762.47,1121.85,SupplierE,False
+P0397,Swim Goggles - v7,Sports,Swim Goggles,32.67,45.11,SupplierC,True
+P0398,Swim Goggles - v8,Sports,Swim Goggles,309.37,612.77,SupplierE,True
+P0399,Swim Goggles - v9,Sports,Swim Goggles,544.85,1328.66,SupplierC,False
+P0400,Swim Goggles - v10,Sports,Swim Goggles,611.65,1216.39,SupplierE,True
+P0401,Moisturizer - v1,Beauty,Moisturizer,321.44,668.43,SupplierB,True
+P0402,Moisturizer - v2,Beauty,Moisturizer,25.6,39.0,SupplierE,False
+P0403,Moisturizer - v3,Beauty,Moisturizer,731.27,1053.99,SupplierC,False
+P0404,Moisturizer - v4,Beauty,Moisturizer,175.58,357.17,SupplierD,True
+P0405,Moisturizer - v5,Beauty,Moisturizer,102.5,238.15,SupplierD,True
+P0406,Moisturizer - v6,Beauty,Moisturizer,719.45,1319.57,SupplierA,True
+P0407,Moisturizer - v7,Beauty,Moisturizer,535.93,1153.03,SupplierE,True
+P0408,Moisturizer - v8,Beauty,Moisturizer,713.61,1656.74,SupplierB,True
+P0409,Moisturizer - v9,Beauty,Moisturizer,409.46,591.93,SupplierB,True
+P0410,Moisturizer - v10,Beauty,Moisturizer,193.21,365.71,SupplierC,True
+P0411,Shampoo - v1,Beauty,Shampoo,376.59,933.8,SupplierB,True
+P0412,Shampoo - v2,Beauty,Shampoo,57.27,101.81,SupplierD,False
+P0413,Shampoo - v3,Beauty,Shampoo,616.49,1410.53,SupplierA,True
+P0414,Shampoo - v4,Beauty,Shampoo,778.04,1611.17,SupplierD,False
+P0415,Shampoo - v5,Beauty,Shampoo,545.69,934.99,SupplierE,True
+P0416,Shampoo - v6,Beauty,Shampoo,615.39,895.29,SupplierE,True
+P0417,Shampoo - v7,Beauty,Shampoo,665.96,1279.79,SupplierC,True
+P0418,Shampoo - v8,Beauty,Shampoo,133.76,323.92,SupplierB,True
+P0419,Shampoo - v9,Beauty,Shampoo,758.25,1457.87,SupplierC,True
+P0420,Shampoo - v10,Beauty,Shampoo,204.23,421.14,SupplierE,True
+P0421,Perfume - v1,Beauty,Perfume,104.51,173.84,SupplierE,True
+P0422,Perfume - v2,Beauty,Perfume,404.55,607.78,SupplierE,True
+P0423,Perfume - v3,Beauty,Perfume,141.1,289.17,SupplierE,True
+P0424,Perfume - v4,Beauty,Perfume,674.81,1333.66,SupplierA,True
+P0425,Perfume - v5,Beauty,Perfume,41.14,85.15,SupplierE,True
+P0426,Perfume - v6,Beauty,Perfume,522.65,1160.47,SupplierD,True
+P0427,Perfume - v7,Beauty,Perfume,400.94,822.97,SupplierC,True
+P0428,Perfume - v8,Beauty,Perfume,388.94,881.19,SupplierD,True
+P0429,Perfume - v9,Beauty,Perfume,365.57,777.32,SupplierB,False
+P0430,Perfume - v10,Beauty,Perfume,335.42,622.99,SupplierC,True
+P0431,Lipstick - v1,Beauty,Lipstick,253.5,548.08,SupplierC,False
+P0432,Lipstick - v2,Beauty,Lipstick,108.96,190.1,SupplierE,True
+P0433,Lipstick - v3,Beauty,Lipstick,258.7,481.12,SupplierC,False
+P0434,Lipstick - v4,Beauty,Lipstick,202.1,286.21,SupplierC,False
+P0435,Lipstick - v5,Beauty,Lipstick,692.01,1246.84,SupplierB,True
+P0436,Lipstick - v6,Beauty,Lipstick,747.33,1618.23,SupplierB,True
+P0437,Lipstick - v7,Beauty,Lipstick,401.12,769.22,SupplierD,True
+P0438,Lipstick - v8,Beauty,Lipstick,400.41,563.8,SupplierD,False
+P0439,Lipstick - v9,Beauty,Lipstick,773.52,1205.28,SupplierC,True
+P0440,Lipstick - v10,Beauty,Lipstick,45.18,85.57,SupplierD,True
+P0441,Foundation - v1,Beauty,Foundation,431.67,1000.01,SupplierD,True
+P0442,Foundation - v2,Beauty,Foundation,706.55,1535.34,SupplierD,True
+P0443,Foundation - v3,Beauty,Foundation,40.97,55.78,SupplierE,True
+P0444,Foundation - v4,Beauty,Foundation,293.21,482.72,SupplierD,False
+P0445,Foundation - v5,Beauty,Foundation,612.7,1002.17,SupplierE,True
+P0446,Foundation - v6,Beauty,Foundation,107.29,151.92,SupplierC,True
+P0447,Foundation - v7,Beauty,Foundation,448.48,779.78,SupplierB,True
+P0448,Foundation - v8,Beauty,Foundation,483.96,862.25,SupplierA,True
+P0449,Foundation - v9,Beauty,Foundation,35.94,77.5,SupplierD,False
+P0450,Foundation - v10,Beauty,Foundation,123.41,292.7,SupplierB,True
+P0451,Sunscreen - v1,Beauty,Sunscreen,745.44,1254.01,SupplierD,True
+P0452,Sunscreen - v2,Beauty,Sunscreen,477.01,910.51,SupplierE,False
+P0453,Sunscreen - v3,Beauty,Sunscreen,568.45,943.48,SupplierA,True
+P0454,Sunscreen - v4,Beauty,Sunscreen,268.34,384.14,SupplierD,True
+P0455,Sunscreen - v5,Beauty,Sunscreen,638.42,1385.62,SupplierA,False
+P0456,Sunscreen - v6,Beauty,Sunscreen,216.1,450.94,SupplierE,True
+P0457,Sunscreen - v7,Beauty,Sunscreen,578.51,1157.15,SupplierB,False
+P0458,Sunscreen - v8,Beauty,Sunscreen,122.48,259.27,SupplierA,True
+P0459,Sunscreen - v9,Beauty,Sunscreen,156.67,286.59,SupplierD,True
+P0460,Sunscreen - v10,Beauty,Sunscreen,333.3,514.84,SupplierE,False
+P0461,Hair Dryer - v1,Beauty,Hair Dryer,698.89,1525.68,SupplierA,True
+P0462,Hair Dryer - v2,Beauty,Hair Dryer,417.35,823.46,SupplierD,False
+P0463,Hair Dryer - v3,Beauty,Hair Dryer,254.43,383.63,SupplierE,True
+P0464,Hair Dryer - v4,Beauty,Hair Dryer,439.29,927.36,SupplierC,False
+P0465,Hair Dryer - v5,Beauty,Hair Dryer,157.85,251.9,SupplierE,True
+P0466,Hair Dryer - v6,Beauty,Hair Dryer,183.77,453.45,SupplierC,True
+P0467,Hair Dryer - v7,Beauty,Hair Dryer,565.4,1203.33,SupplierD,True
+P0468,Hair Dryer - v8,Beauty,Hair Dryer,386.44,762.29,SupplierC,True
+P0469,Hair Dryer - v9,Beauty,Hair Dryer,101.89,215.19,SupplierD,False
+P0470,Hair Dryer - v10,Beauty,Hair Dryer,655.61,1603.31,SupplierB,True
+P0471,Face Mask - v1,Beauty,Face Mask,38.44,94.04,SupplierA,True
+P0472,Face Mask - v2,Beauty,Face Mask,739.59,1543.65,SupplierD,True
+P0473,Face Mask - v3,Beauty,Face Mask,165.64,322.38,SupplierE,True
+P0474,Face Mask - v4,Beauty,Face Mask,114.13,232.69,SupplierE,True
+P0475,Face Mask - v5,Beauty,Face Mask,197.75,416.03,SupplierE,True
+P0476,Face Mask - v6,Beauty,Face Mask,512.17,698.08,SupplierD,True
+P0477,Face Mask - v7,Beauty,Face Mask,575.3,817.3,SupplierB,True
+P0478,Face Mask - v8,Beauty,Face Mask,771.79,1909.02,SupplierB,False
+P0479,Face Mask - v9,Beauty,Face Mask,524.05,1235.07,SupplierD,False
+P0480,Face Mask - v10,Beauty,Face Mask,522.18,1152.5,SupplierC,True

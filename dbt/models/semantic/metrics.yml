@@ -1,0 +1,106 @@
+version: 2
+
+semantic_models:
+  - name: orders
+    description: "Core orders semantic model — source of truth for all revenue metrics"
+    model: ref('fact_orders')
+    defaults:
+      agg_time_dimension: order_date
+
+    entities:
+      - name: order
+        type: primary
+        expr: order_key
+      - name: customer
+        type: foreign
+        expr: customer_id
+      - name: product
+        type: foreign
+        expr: product_id
+
+    dimensions:
+      - name: order_date
+        type: time
+        type_params:
+          time_granularity: day
+      - name: region
+        type: categorical
+      - name: channel
+        type: categorical
+      - name: status
+        type: categorical
+      - name: discount_tier
+        type: categorical
+
+    measures:
+      - name: revenue
+        description: "Total net revenue after discounts"
+        agg: sum
+        expr: net_amount
+      - name: gross_revenue
+        agg: sum
+        expr: gross_amount
+      - name: gross_profit
+        agg: sum
+        expr: gross_profit
+      - name: order_count
+        agg: count_distinct
+        expr: order_id
+      - name: units_sold
+        agg: sum
+        expr: quantity
+      - name: avg_order_value
+        agg: average
+        expr: net_amount
+
+metrics:
+  - name: total_revenue
+    label: "Total Revenue"
+    description: "Total net revenue across all completed orders"
+    type: simple
+    type_params:
+      measure: revenue
+    filter: "{{ Dimension('status') }} = 'Completed'"
+
+  - name: gross_profit_margin
+    label: "Gross Profit Margin %"
+    description: "Gross profit as a percentage of revenue"
+    type: ratio
+    type_params:
+      numerator: gross_profit
+      denominator: revenue
+
+  - name: avg_order_value
+    label: "Average Order Value"
+    description: "Average net revenue per order"
+    type: simple
+    type_params:
+      measure: avg_order_value
+
+  - name: total_orders
+    label: "Total Orders"
+    type: simple
+    type_params:
+      measure: order_count
+
+  - name: revenue_mom_growth
+    label: "Revenue Month-over-Month Growth %"
+    description: "Percentage change in revenue vs previous month"
+    type: derived
+    type_params:
+      expr: "(revenue - lag_revenue) / lag_revenue * 100"
+      metrics:
+        - name: revenue
+        - name: revenue
+          alias: lag_revenue
+          offset_window: 1 month
+
+  - name: return_rate
+    label: "Return Rate %"
+    description: "Percentage of orders that were returned"
+    type: ratio
+    type_params:
+      numerator:
+        name: order_count
+        filter: "{{ Dimension('status') }} = 'Returned'"
+      denominator: order_count
